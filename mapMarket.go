@@ -17,7 +17,7 @@ func main() {
 	itemList[4] = Item{namaProduk: "Teh Gelas", hargaProduk: 1500, stokProduk: 24}
 	for _, value := range itemList {
 		if value.stokProduk <= 10 {
-			fmt.Println("Nama Barang :", value.namaProduk, "\nHarga Barang :", value.hargaProduk, "\nStok Produk :", value.stokProduk)
+			fmt.Println("Nama Barang :", value.namaProduk, "\nHarga Barang : Rp.", value.hargaProduk, "\nStok Produk :", value.stokProduk)
 			fmt.Println("-----------------------")
 		}
 	}
